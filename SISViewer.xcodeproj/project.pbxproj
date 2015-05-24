@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A221D1281A52CFAD009BB525 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = A221D1271A52CFAD009BB525 /* noimage.png */; };
+		A226B4221A2B3F47004D936B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A226B4211A2B3F47004D936B /* main.m */; };
+		A226B4251A2B3F47004D936B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A226B4241A2B3F47004D936B /* AppDelegate.m */; };
+		A226B4281A2B3F47004D936B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A226B4271A2B3F47004D936B /* MasterViewController.m */; };
+		A226B42E1A2B3F47004D936B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A226B42C1A2B3F47004D936B /* Main.storyboard */; };
+		A226B4301A2B3F47004D936B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A226B42F1A2B3F47004D936B /* Images.xcassets */; };
+		A226B4331A2B3F47004D936B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A226B4311A2B3F47004D936B /* LaunchScreen.xib */; };
+		A226B43F1A2B3F47004D936B /* SISViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A226B43E1A2B3F47004D936B /* SISViewerTests.m */; };
+		A226B44A1A2B3FBE004D936B /* VideoLoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A226B4491A2B3FBE004D936B /* VideoLoaderViewController.m */; };
+		A27F5B9B1A334B0B00E6192C /* HalfSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F5B9A1A334B0B00E6192C /* HalfSphere.m */; };
+		A27F5BA41A334B4000E6192C /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F5BA01A334B4000E6192C /* Node.m */; };
+		A27F5BA51A334B4000E6192C /* Vector5D.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F5BA21A334B4000E6192C /* Vector5D.m */; };
+		A27F5BAB1A334B9100E6192C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F5BA81A334B9100E6192C /* ViewController.m */; };
+		A27F5BAC1A334B9100E6192C /* MotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F5BAA1A334B9100E6192C /* MotionManager.m */; };
+		A27F5BAE1A334BAA00E6192C /* DepthShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = A27F5BAD1A334BAA00E6192C /* DepthShader.metal */; };
+		A2B651F71A820B79000B5FF9 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B651F61A820B79000B5FF9 /* splashscreen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A226B4391A2B3F47004D936B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A226B4141A2B3F47004D936B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A226B41B1A2B3F47004D936B;
+			remoteInfo = SISViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A221D1271A52CFAD009BB525 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		A226B41C1A2B3F47004D936B /* SISViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SISViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A226B4201A2B3F47004D936B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A226B4211A2B3F47004D936B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A226B4231A2B3F47004D936B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A226B4241A2B3F47004D936B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A226B4261A2B3F47004D936B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A226B4271A2B3F47004D936B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A226B42D1A2B3F47004D936B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A226B42F1A2B3F47004D936B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A226B4321A2B3F47004D936B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A226B4381A2B3F47004D936B /* SISViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SISViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A226B43D1A2B3F47004D936B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A226B43E1A2B3F47004D936B /* SISViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SISViewerTests.m; sourceTree = "<group>"; };
+		A226B4481A2B3FBE004D936B /* VideoLoaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoLoaderViewController.h; sourceTree = "<group>"; };
+		A226B4491A2B3FBE004D936B /* VideoLoaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoLoaderViewController.m; sourceTree = "<group>"; };
+		A27F5B991A334B0B00E6192C /* HalfSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfSphere.h; sourceTree = "<group>"; };
+		A27F5B9A1A334B0B00E6192C /* HalfSphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfSphere.m; sourceTree = "<group>"; };
+		A27F5B9F1A334B4000E6192C /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		A27F5BA01A334B4000E6192C /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		A27F5BA11A334B4000E6192C /* Vector5D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector5D.h; sourceTree = "<group>"; };
+		A27F5BA21A334B4000E6192C /* Vector5D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector5D.m; sourceTree = "<group>"; };
+		A27F5BA71A334B9100E6192C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A27F5BA81A334B9100E6192C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A27F5BA91A334B9100E6192C /* MotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionManager.h; sourceTree = "<group>"; };
+		A27F5BAA1A334B9100E6192C /* MotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionManager.m; sourceTree = "<group>"; };
+		A27F5BAD1A334BAA00E6192C /* DepthShader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = DepthShader.metal; sourceTree = "<group>"; };
+		A2B651F61A820B79000B5FF9 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
+		A2C371F21A35F1820008EBD0 /* SISViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SISViewer-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A226B4191A2B3F47004D936B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226B4351A2B3F47004D936B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A226B4131A2B3F47004D936B = {
+			isa = PBXGroup;
+			children = (
+				A226B41E1A2B3F47004D936B /* SISViewer */,
+				A226B43B1A2B3F47004D936B /* SISViewerTests */,
+				A226B41D1A2B3F47004D936B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A226B41D1A2B3F47004D936B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A226B41C1A2B3F47004D936B /* SISViewer.app */,
+				A226B4381A2B3F47004D936B /* SISViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A226B41E1A2B3F47004D936B /* SISViewer */ = {
+			isa = PBXGroup;
+			children = (
+				A27F5B981A334AEC00E6192C /* 3DModels */,
+				A27F5B9C1A334B2700E6192C /* 3DUtils */,
+				A27F5BA61A334B6B00E6192C /* Viewer */,
+				A226B44B1A2B3FF3004D936B /* VideoSettings */,
+				A226B4231A2B3F47004D936B /* AppDelegate.h */,
+				A226B4241A2B3F47004D936B /* AppDelegate.m */,
+				A27F5BAD1A334BAA00E6192C /* DepthShader.metal */,
+				A226B42C1A2B3F47004D936B /* Main.storyboard */,
+				A226B42F1A2B3F47004D936B /* Images.xcassets */,
+				A226B4311A2B3F47004D936B /* LaunchScreen.xib */,
+				A226B41F1A2B3F47004D936B /* Supporting Files */,
+				A2C371F21A35F1820008EBD0 /* SISViewer-Prefix.pch */,
+				A2AAD3841B11BE76005EF1EE /* Resouces */,
+			);
+			path = SISViewer;
+			sourceTree = "<group>";
+		};
+		A226B41F1A2B3F47004D936B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B651F61A820B79000B5FF9 /* splashscreen.png */,
+				A221D1271A52CFAD009BB525 /* noimage.png */,
+				A226B4201A2B3F47004D936B /* Info.plist */,
+				A226B4211A2B3F47004D936B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A226B43B1A2B3F47004D936B /* SISViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A226B43E1A2B3F47004D936B /* SISViewerTests.m */,
+				A226B43C1A2B3F47004D936B /* Supporting Files */,
+			);
+			path = SISViewerTests;
+			sourceTree = "<group>";
+		};
+		A226B43C1A2B3F47004D936B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A226B43D1A2B3F47004D936B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A226B44B1A2B3FF3004D936B /* VideoSettings */ = {
+			isa = PBXGroup;
+			children = (
+				A226B4261A2B3F47004D936B /* MasterViewController.h */,
+				A226B4271A2B3F47004D936B /* MasterViewController.m */,
+				A226B4481A2B3FBE004D936B /* VideoLoaderViewController.h */,
+				A226B4491A2B3FBE004D936B /* VideoLoaderViewController.m */,
+			);
+			name = VideoSettings;
+			sourceTree = "<group>";
+		};
+		A27F5B981A334AEC00E6192C /* 3DModels */ = {
+			isa = PBXGroup;
+			children = (
+				A27F5B991A334B0B00E6192C /* HalfSphere.h */,
+				A27F5B9A1A334B0B00E6192C /* HalfSphere.m */,
+			);
+			name = 3DModels;
+			sourceTree = "<group>";
+		};
+		A27F5B9C1A334B2700E6192C /* 3DUtils */ = {
+			isa = PBXGroup;
+			children = (
+				A27F5B9F1A334B4000E6192C /* Node.h */,
+				A27F5BA01A334B4000E6192C /* Node.m */,
+				A27F5BA11A334B4000E6192C /* Vector5D.h */,
+				A27F5BA21A334B4000E6192C /* Vector5D.m */,
+			);
+			name = 3DUtils;
+			sourceTree = "<group>";
+		};
+		A27F5BA61A334B6B00E6192C /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				A27F5BA71A334B9100E6192C /* ViewController.h */,
+				A27F5BA81A334B9100E6192C /* ViewController.m */,
+				A27F5BA91A334B9100E6192C /* MotionManager.h */,
+				A27F5BAA1A334B9100E6192C /* MotionManager.m */,
+			);
+			name = Viewer;
+			sourceTree = "<group>";
+		};
+		A2AAD3841B11BE76005EF1EE /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resouces;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A226B41B1A2B3F47004D936B /* SISViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A226B4421A2B3F47004D936B /* Build configuration list for PBXNativeTarget "SISViewer" */;
+			buildPhases = (
+				A226B4181A2B3F47004D936B /* Sources */,
+				A226B4191A2B3F47004D936B /* Frameworks */,
+				A226B41A1A2B3F47004D936B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SISViewer;
+			productName = SISViewer;
+			productReference = A226B41C1A2B3F47004D936B /* SISViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A226B4371A2B3F47004D936B /* SISViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A226B4451A2B3F47004D936B /* Build configuration list for PBXNativeTarget "SISViewerTests" */;
+			buildPhases = (
+				A226B4341A2B3F47004D936B /* Sources */,
+				A226B4351A2B3F47004D936B /* Frameworks */,
+				A226B4361A2B3F47004D936B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A226B43A1A2B3F47004D936B /* PBXTargetDependency */,
+			);
+			name = SISViewerTests;
+			productName = SISViewerTests;
+			productReference = A226B4381A2B3F47004D936B /* SISViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A226B4141A2B3F47004D936B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = blkcatman;
+				TargetAttributes = {
+					A226B41B1A2B3F47004D936B = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 767QK8TC8A;
+					};
+					A226B4371A2B3F47004D936B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A226B41B1A2B3F47004D936B;
+					};
+				};
+			};
+			buildConfigurationList = A226B4171A2B3F47004D936B /* Build configuration list for PBXProject "SISViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A226B4131A2B3F47004D936B;
+			productRefGroup = A226B41D1A2B3F47004D936B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A226B41B1A2B3F47004D936B /* SISViewer */,
+				A226B4371A2B3F47004D936B /* SISViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A226B41A1A2B3F47004D936B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A226B42E1A2B3F47004D936B /* Main.storyboard in Resources */,
+				A2B651F71A820B79000B5FF9 /* splashscreen.png in Resources */,
+				A221D1281A52CFAD009BB525 /* noimage.png in Resources */,
+				A226B4331A2B3F47004D936B /* LaunchScreen.xib in Resources */,
+				A226B4301A2B3F47004D936B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226B4361A2B3F47004D936B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A226B4181A2B3F47004D936B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A226B44A1A2B3FBE004D936B /* VideoLoaderViewController.m in Sources */,
+				A226B4251A2B3F47004D936B /* AppDelegate.m in Sources */,
+				A27F5BAC1A334B9100E6192C /* MotionManager.m in Sources */,
+				A226B4281A2B3F47004D936B /* MasterViewController.m in Sources */,
+				A27F5BAB1A334B9100E6192C /* ViewController.m in Sources */,
+				A27F5BA51A334B4000E6192C /* Vector5D.m in Sources */,
+				A226B4221A2B3F47004D936B /* main.m in Sources */,
+				A27F5B9B1A334B0B00E6192C /* HalfSphere.m in Sources */,
+				A27F5BAE1A334BAA00E6192C /* DepthShader.metal in Sources */,
+				A27F5BA41A334B4000E6192C /* Node.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226B4341A2B3F47004D936B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A226B43F1A2B3F47004D936B /* SISViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A226B43A1A2B3F47004D936B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A226B41B1A2B3F47004D936B /* SISViewer */;
+			targetProxy = A226B4391A2B3F47004D936B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A226B42C1A2B3F47004D936B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A226B42D1A2B3F47004D936B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A226B4311A2B3F47004D936B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A226B4321A2B3F47004D936B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A226B4401A2B3F47004D936B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A226B4411A2B3F47004D936B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A226B4431A2B3F47004D936B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "SISViewer/SISVIewer-Prefix.pch";
+				INFOPLIST_FILE = SISViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "df8e5d37-00c1-4202-93ca-84e094cea175";
+			};
+			name = Debug;
+		};
+		A226B4441A2B3F47004D936B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "SISViewer/SISVIewer-Prefix.pch";
+				INFOPLIST_FILE = SISViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "df8e5d37-00c1-4202-93ca-84e094cea175";
+			};
+			name = Release;
+		};
+		A226B4461A2B3F47004D936B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SISViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SISViewer.app/SISViewer";
+			};
+			name = Debug;
+		};
+		A226B4471A2B3F47004D936B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SISViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SISViewer.app/SISViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A226B4171A2B3F47004D936B /* Build configuration list for PBXProject "SISViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A226B4401A2B3F47004D936B /* Debug */,
+				A226B4411A2B3F47004D936B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A226B4421A2B3F47004D936B /* Build configuration list for PBXNativeTarget "SISViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A226B4431A2B3F47004D936B /* Debug */,
+				A226B4441A2B3F47004D936B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A226B4451A2B3F47004D936B /* Build configuration list for PBXNativeTarget "SISViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A226B4461A2B3F47004D936B /* Debug */,
+				A226B4471A2B3F47004D936B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A226B4141A2B3F47004D936B /* Project object */;
+}
